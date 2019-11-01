@@ -1,18 +1,19 @@
 package projetopoo;
+import java.time.LocalDate;
 
 public class Pedido {
     int idPedido;
-    Date dataHorario;
+    LocalDate dataHorario;
 
     public void setIdPedido(int idPedido) {
         this.idPedido = idPedido;
     }
 
-    public void setDataHorario(Date dataHorario) {
+    public void setDataHorario(LocalDate dataHorario) {
         this.dataHorario = dataHorario;
     }
 
-    public Date getDataHorario() {
+    public LocalDate getDataHorario() {
         return dataHorario;
     }
 

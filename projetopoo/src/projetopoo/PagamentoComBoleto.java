@@ -1,22 +1,23 @@
 package projetopoo;
+import java.time.LocalDate;
 
 public class PagamentoComBoleto {
-    Date dataVencimento;
-    Date dataPagamento;
+    LocalDate dataVencimento;
+    LocalDate dataPagamento;
 
-    public void setDataPagamento(Date dataPagamento) {
+    public void setDataPagamento(LocalDate dataPagamento) {
         this.dataPagamento = dataPagamento;
     }
 
-    public void setDataVencimento(Date dataVencimento) {
+    public void setDataVencimento(LocalDate dataVencimento) {
         this.dataVencimento = dataVencimento;
     }
 
-    public Date getDataPagamento() {
+    public LocalDate getDataPagamento() {
         return dataPagamento;
     }
 
-    public Date getDataVencimento() {
+    public LocalDate getDataVencimento() {
         return dataVencimento;
     }
 }
